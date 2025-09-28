@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python_heap"
+version = "0.1.0"
+description = "Heap implementation in python because heapq sucks!"
+authors = [{name = "Saurabh", email = "sourabhmahra91@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
